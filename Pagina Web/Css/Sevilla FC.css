@@ -1,0 +1,81 @@
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+nav {
+    float: center;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+nav ul li a{
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1,p{
+    font-family:sans-serif;
+    width:400px;
+    margin:35px auto;
+    text-align:center;
+   
+  }
+  p{
+    width:500px;
+  }
+  table{
+    width:500px;
+    margin:0 auto;
+    color:white;
+    text-align:center;
+  }
+  tr{
+    cursor:pointer;
+  }
+  
+ 
+  /* Impares */
+  table tr:nth-child(odd){
+    background-color:black;
+  }
+  
+  table tr:nth-child(odd):hover{
+    color:white;
+    background-color:rgb(255, 122, 122);
+  }
+  /* Pares */
+  table tr:nth-child(even){
+    background-color:black;
+  }
+  
+  table tr:nth-child(even):hover{
+    color:white;
+    background-color:rgb(255, 122, 122);
+  }

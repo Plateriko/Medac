@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de registro</title>
+   
+    <font color="Red">
+        <center> 
+        <h1> <b> Registro </b> </h1>
+        <hr>
+        </center>
+        </font>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+
+<form action="" method="get">
+    <p>
+    Nombre: <input type="text" name="nombre" maxlength="50" />
+    </p>
+
+    <p>
+    Apellidos: <input type="text" name="apellidos" maxlength="50" />
+    </p>
+
+    <p>
+    Sexo: <input type="radio" name="sexo" value="h" /> hombre <input type="radio" name="sexo" value="m" /> mujer
+    </p>
+
+    <p>
+    Correo: <input type="text" name="correo" maxlength="100" />
+    </p>
+
+    <p>
+        Teléfono: <input type="text" name="telefono"  />
+    </p>
+
+    <p>
+        <label for="poblacion">Población:</label>
+        <select name="poblacion" id="poblacion">
+        <option>Alicante</option>
+        <option>Madrid</option>
+        <option>Sevilla</option>
+        <option>Valencia</option>
+        <option>Granada</option>
+        <option>Cadiz</option>
+        <option>Malaga</option>
+        <option>Pais Vasco</option>
+        <option>Barcelona</option>
+        <option>Jaen</option>
+        <option>Cordoba</option>
+        <option>Murcia</option>
+        <option>Huelva</option>
+        <option>Almeria</option>
+        <option>Albacete</option>
+        <option>Santander</option>
+        <option>Badajoz</option>
+        <option>Navarra</option>
+        <option>Islas Baleares</option>
+        <option>Islas Canarias</option>
+        <option>Ceuta</option>
+        <option>Melilla</option>
+        </select> 
+        </p>
+        
+        <p><label for="descripcion">Descripción:</label>
+        <textarea name="descripcion" id="descripcion" rows="6" cols="60"></textarea>
+    </p>
+    
+    <p>
+    <input type="checkbox" name="info" checked="checked" /> Deseo recibir información sobre novedades y ofertas
+    </p>
+
+    <p>
+    <input type="checkbox" name="condiciones" /> Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos
+    </p>
+
+    <p>
+    <input type="submit" value="Enviar" />
+    </p>
+</form>
+</body>
+</html>
