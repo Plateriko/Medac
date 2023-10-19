@@ -1,81 +1,87 @@
-header{
-    width: 100%;
-    position: fixed;
-    z-index: 100;
+/* Estilos para la foto en el encabezado */
+header {
+  text-align: center;
 }
+
+/* Ajustes para la imagen en el encabezado */
+header img {
+  margin-top: 20px; /* Ajusta según sea necesario */
+}
+
+/* Estilos para el menú de navegación */
 nav {
-    float: center;
+  text-align: center;
+  margin-top: 20px; /* Ajusta según sea necesario */
 }
 
+/* Configuración del menú de navegación */
 nav ul {
-    list-style: none;
-    overflow: hidden;
+  list-style: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
 }
+
+/* Estilos para cada elemento del menú */
 nav ul li {
-    float: left;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-}
-nav ul li a{
-    display: block;
-    padding: 10px;
-    color: black;
-    text-decoration: none;
-}
-nav ul li:hover{
-    background: red;
+  margin-right: 10px;
 }
 
+/* Estilos para los enlaces del menú */
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
 
+/* Efecto de cambio de color al pasar el ratón por encima */
+nav ul li:hover {
+  background: red;
+  border-radius: 20px; /* Redondeo en hover */
+}
 
+/* Estilos generales para tablas */
+h1, p {
+  font-family: sans-serif;
+  width: 400px;
+  margin: 35px auto;
+  text-align: center;
+}
 
+/* Ajustes específicos para párrafos */
+p {
+  width: 500px;
+}
 
+/* Estilos para tablas */
+table {
+  width: 500px;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+}
 
+/* Efecto de cambio de color al pasar el ratón por encima de filas impares */
+table tr:nth-child(odd) {
+  background-color: black;
+}
 
+/* Efecto de cambio de color al pasar el ratón por encima de filas impares */
+table tr:nth-child(odd):hover {
+  color: white;
+  background-color: rgb(255, 122, 122);
+}
 
+/* Estilos para filas pares */
+table tr:nth-child(even) {
+  background-color: black;
+}
 
-
-
-
-
-
-
-h1,p{
-    font-family:sans-serif;
-    width:400px;
-    margin:35px auto;
-    text-align:center;
-   
-  }
-  p{
-    width:500px;
-  }
-  table{
-    width:500px;
-    margin:0 auto;
-    color:white;
-    text-align:center;
-  }
-  tr{
-    cursor:pointer;
-  }
-  
- 
-  /* Impares */
-  table tr:nth-child(odd){
-    background-color:black;
-  }
-  
-  table tr:nth-child(odd):hover{
-    color:white;
-    background-color:rgb(255, 122, 122);
-  }
-  /* Pares */
-  table tr:nth-child(even){
-    background-color:black;
-  }
-  
-  table tr:nth-child(even):hover{
-    color:white;
-    background-color:rgb(255, 122, 122);
-  }
+/* Efecto de cambio de color al pasar el ratón por encima de filas pares */
+table tr:nth-child(even):hover {
+  color: white;
+  background-color: rgb(255, 122, 122);
+}
