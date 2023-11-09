@@ -6,6 +6,10 @@ header {
 /* Derechos del autor */
 footer {
   text-align: right;
+  margin-inline-start: 40em;
+  margin-inline-end: 1em;
+  margin-block-start: 35em;
+  margin-block-end: 1em;
 }
 
 /* Ajustes para la imagen en el encabezado */
@@ -132,3 +136,14 @@ table tr:nth-child(even):hover {
 .breadcrumbs {
   text-align: center;
 }
+
+.center-audio {
+  text-align: center;
+}
+
+
+
+
+
+
+
