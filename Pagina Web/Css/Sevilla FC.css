@@ -98,7 +98,7 @@ table tr:nth-child(even):hover {
 
 .navegacion {
   text-align: center;
-  background-color: red;
+  background-color: black;
   color: black;
 }
 
@@ -115,16 +115,20 @@ table tr:nth-child(even):hover {
 
 .menu a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .submenu {
   display: none;
   position: absolute;
-  background-color: red;
+  background-color: black;
   padding: 30px;
 }
 
 .menu > li:hover .submenu {
   display: block;
+}
+
+.breadcrumbs {
+  text-align: center;
 }
