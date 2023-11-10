@@ -55,7 +55,7 @@ nav ul li:hover {
 /* Estilos generales para tablas */
 h1, p {
   font-family: sans-serif;
-  width: 400px;
+  width: 500px;
   margin: 35px auto;
   text-align: center;
 }
@@ -132,6 +132,9 @@ table tr:nth-child(even):hover {
 .menu > li:hover .submenu {
   display: block;
 }
+
+
+
 
 .breadcrumbs {
   text-align: center;
